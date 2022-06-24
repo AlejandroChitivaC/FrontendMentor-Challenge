@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="title">Features</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <!-- Dropdown Item -->
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <!-- TodoIcon -->
+                    <img src="/images/icon-todo.svg" alt="todolisticon">
+                    <span id="dpitem">TodoList</span>
+                  </a>
+                </li>
+                <!-- Dropdown Item -->
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <!-- CalendarIcon -->
+                    <img src="/images/icon-calendar.svg" alt="calendaricon">
+                    <span id="dpitem">Calendar</span>
+                  </a>
+                </li>
+                <!-- Dropdown Item -->
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="/images/icon-reminders.svg" alt="remindericon">
+                    <span id="dpitem">Reminders</span>
+                  </a>
+                </li>
+                <!-- Dropdown Item -->
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="/images/icon-planning.svg" alt="remindericon">
+                    <span id="dpitem">Planning</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="title">Company</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#"><span id="dpitem">History</span></a></li>
+                <li><a class="dropdown-item" href="#"><span id="dpitem">Our Team</span></a></li>
+                <li><a class="dropdown-item" href="#"><span id="dpitem">Blog</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span id="title">Careers</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span id="title">About</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="buttons">
+          <a href="#" id="button" class="btn btn-primary">Login</a>
+          <a href="#" id="button" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="titleinfo">
+            <h1 class="headinginfo">
+              Make <br> remote work
+            </h1>
+          </div>
+          <div class="info">
+            <p class="description">Get your team in sync, no matter your location. <br>
+              Streamline processes, create team rituals, and <br>
+              watch productivity soar. </p>
+          </div>
+          <div class="buttons">
+            <a href="#" id="buttoninfo" class="btn btn-primary">Learn more</a>
+          </div>
+          <div id="img-hero" class="col">
+            <img src="/images/image-hero-desktop.png" alt="">
+          </div>
+        </div>
+      </div>
+  <footer>
+    <div class="attribution">
+      <span>Challenge by</span> <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      <span>Coded by</span> <a href="https://github.com/AlejandroChitivaC" target="_blank"><strong>Alejandro Chitiva
+          Castillo</strong></a>.
+      <br>
+      <span>Copyright: <strong>Alejandro Chitiva Castillo</strong></span>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

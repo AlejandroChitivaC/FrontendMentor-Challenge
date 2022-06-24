@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;700;800&display=swap');
+
+* {
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* NavBar */
+#navbarDropdownMenuLink {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbarNavDropdown {
+  padding-left: 50px;
+}
+
+#title {
+  font-weight: bold;
+  color: gray;
+}
+
+#title:hover {
+  color: hsl(0, 0%, 0%);
+}
+
+#dpitem {
+  padding-left: 5px;
+  font-weight: bold;
+  color: hsl(0, 0%, 41%);
+}
+
+#button {
+  border-color: hsl(0, 0%, 8%);
+  background-color: transparent;
+  border-radius: 15px;
+  color: hsl(0, 0%, 8%);
+  font-weight: bold;
+}
+
+#button:hover {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+}
+
+/* End NavBar */
+
+.headinginfo {
+  font-weight: 700;
+  color: hsl(0, 0%, 8%);
+  font-size: 80px;
+  letter-spacing: -2px;
+
+}
+
+.description {
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+}
+
+#buttoninfo {
+  border-color: hsl(0, 0%, 8%);
+  background-color: transparent;
+  border-radius: 12px;
+  color: hsl(0, 0%, 8%);
+  font-weight: bold;
+}
+
+#buttoninfo:hover {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+}
+
+
+
+/* footer */
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
